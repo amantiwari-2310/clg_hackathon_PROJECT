@@ -24,30 +24,16 @@ ScrollTrigger.refresh();
 }
 init()
 
-gsap.to("#about ",{
-  scale:1.1,
-  // duration:"0.75",
-   scrollTrigger:{
-       trigger:"#about",
-       scroller:"body",
-       // markers:true,
-       start:"top 75%",
-       end:"top 55%",
-       scrub:1,
-   }
-})
+// gsap.from("#about ",{
+//   scale:1.1,
+//   // duration:"0/.5",
+//    scrollTrigger:{
+//        trigger:"#about",
+//        scroller:"body",
+//        markers:true,
+//        start:"top 75%",
+//        end:"top 55%",
+//        scrub:4,
+//    }
+// })
 
-gsap.from(" .box",{
-  scale:0.8,
-opacity:0,
-  duration:1,
-  stagger:1,
-  scrollTrigger:{
-      trigger:".box",
-      scroller:"body",
-      markers:true,
-      start:"top 70%",
-      end:"top 65%",
-      scrub:2,
-  }
-})
